@@ -1,0 +1,33 @@
+body{
+    background-color: #B0E0E6;
+    position: relative;
+}
+
+.container{
+    max-width: 820px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    border: 5px solid #BC8F8F;
+    border-radius: 15px;
+
+
+}
+
+.container h1{
+    text-shadow: 3px 3px 4px rgba(0,0,0.4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .2rem;
+}
+.container p,figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.container .condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
