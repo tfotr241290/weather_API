@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a simple weather data application that shows current weather conditions">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Weather_API</title>
 </head>
 <body>
 
-    <h1>OpenWeatherMap.org API Test</h1>
-    <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
-    <h2>Current Condition Icon</h2>
-    <figure>
-    <img src="" alt="" id="weather-icon" />
-    <figcaption></figcaption>
-    </figure>
+    <div class="container">
+        <h1>Open WeatherMap .org API Test</h1>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <div class="condition">
+            <h2>Current Condition</h2>
+            <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+            </figure>
+        </div>
+        
+    </div>
+
     
-    <script src="/javascript/weatherapi.js"></script>
+    
+    <script src="javascript/weatherapi.js"></script>
 </body>
 </html>
