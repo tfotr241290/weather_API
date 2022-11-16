@@ -37,5 +37,4 @@ const displayResults = (weatherData)=>{
 
 }
 
-
 requestData(url);
